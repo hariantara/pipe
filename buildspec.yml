@@ -5,14 +5,14 @@ phases:
     commands:
       - echo Installing Mocha...
       - npm install -g mocha
+      - npm install --save
   pre_build:
     commands:
-      - echo Installing source NPM dependencies...
-      - npm install 
+      - echo Installing source NPM dependencies...   
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the Node.js code
+      - echo Compiling the Node.js code 
   post_build:
     commands:
       - echo Build completed on `date`
