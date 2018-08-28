@@ -23,6 +23,7 @@ artifacts:
     - app.js
     - package.json
     - ./routes/index.js
+    - ./routes/user.js
     - ./views/index.ejs
     - ./views/error/ejs
     - ./bin/www
