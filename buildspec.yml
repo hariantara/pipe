@@ -8,11 +8,13 @@ phases:
       - npm install --save
   pre_build:
     commands:
-      - echo Installing source NPM dependencies...   
+      - echo Installing source NPM dependencies...
+      - npm install --save   
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the Node.js code 
+      - echo Compiling the Node.js code
+      - npm install --save 
   post_build:
     commands:
       - echo Build completed on `date`
