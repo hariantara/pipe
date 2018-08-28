@@ -5,11 +5,11 @@ phases:
     commands:
       - echo Installing Mocha...
       - npm install -g mocha
-      - npm install --save express body-parser cooki-parser debug ejs morgan serve-favicon
+      - npm install --save express body-parser cookie-parser debug ejs morgan serve-favicon
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - npm install --save express body-parser cooki-parser debug ejs morgan serve-favicon   
+      - npm install --save express body-parser cookie-parser debug ejs morgan serve-favicon   
   build:
     commands:
       - echo Build started on `date`
