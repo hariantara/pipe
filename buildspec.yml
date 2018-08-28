@@ -22,3 +22,7 @@ artifacts:
   files:
     - app.js
     - package.json
+    - ./routes/index.js
+    - ./views/index.ejs
+    - ./views/error/ejs
+    - ./bin/www
